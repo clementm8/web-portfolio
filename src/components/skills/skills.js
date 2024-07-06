@@ -8,7 +8,7 @@ const Skills = () => {
     return (
       <section id="skills">
         <span className="skillsTitle">What I do</span>
-        <span className="skillsDesc">I am a skilled Technical Solutions Engineer with experience in <br />solving complex technical problems. I have a strong understanding of web development and programming. I have experience with multiple platforms that online businesses use such as Shopify, Google Tag Manager, Google Analytics, Stackadapt, and I am willing to learn more.</span>
+        <span className="skillsDesc">I am a skilled Technical Solutions Engineer with experience in solving complex technical problems. I have a strong understanding of web development and programming. I have experience with multiple platforms that online businesses use such as Shopify, Google Tag Manager, Google Analytics, Stackadapt, and I am willing to learn more.</span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={programming} alt="" className="skillBarImg" />
