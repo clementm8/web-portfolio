@@ -9,17 +9,19 @@
 
 .bg{
     position: absolute;
-    top: 3rem;
-    right: 0;
+    top: 8rem;
+    right: -4rem;
     z-index: -1;
     object-fit: cover;
-    height: 70vh;
+    height: 60vh;
+    border: 0.1px solid black;
+    border-radius: 18rem;
 }
 
 .introContent{
     height: 100vh;
     width: 100vw;
-    padding: 2rem;
+    padding: 0 0 0 2rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
