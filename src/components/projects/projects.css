@@ -52,6 +52,18 @@
     max-width: 80vw;
     max-height: fit-content;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectLinks{
+    width: 100vw;
+}
+
+.techStackItem{
+    border: 1px solid rgb(30, 30, 30);
+    border-radius: 2rem;
+    padding: 0.7rem;
 }
 
 .projectsBtn{

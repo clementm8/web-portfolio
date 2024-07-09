@@ -1,0 +1,87 @@
+.contactPageTitle {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.contactPage {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    gap: 2rem;
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: rgb(30, 30, 30);
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background: rgb(40,40,40);
+}
+
+.submitBtn{
+    background: #ffffff;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.experienceTitle{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.experienceItem{
+    min-height: 30rem;
+    width: 70vw;
+    max-width: 55vw;
+    max-height: 1rem;
+    padding: 2.5rem;
+    overflow: auto;
+    background-color: #495cb2;
+    border-radius: 1rem;
+}
+
+.certificationLinks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}

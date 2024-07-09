@@ -12,3 +12,55 @@
     top: 0;
     z-index: 3;
 }
+
+.active{
+    color: rgb(30,30,30);
+    border-bottom: 3px solid rgb(30,30,30);
+    padding-bottom: 0.5rem;
+}
+
+.mobMenu{
+    display: none;
+    object-fit: cover;
+}
+
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40,40,40);
+    border-radius: 1rem;
+}
+
+.listItem{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30,30,30);
+    cursor: pointer;
+}
+
+.listItem:hover{
+    background: #495cb2;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:890px){
+    .mobMenu{
+        display: flex;
+    }
+    .desktopMenu{
+        display: none;
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+}

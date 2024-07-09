@@ -17,18 +17,26 @@ body{
 .logo{
     height: 5rem;
     width: 5rem;
+    object-fit: scale-down;
+}
+
+.mobMenu{
     object-fit: cover;
+    height: 2.2rem;
+    width: 2.3rem;
+    margin-right: 0.5rem;
 }
 
 .desktopMenuListItem{
-    margin: 2.5rem;
+    margin: 1.5rem;
     cursor: pointer;
     font-size: 1.5rem;
 }
 
 .desktopMenuListItem:hover{
     padding-bottom: 0.6rem;
-    background-color: #8d9de3;
+    color: rgb(30, 30, 30);
+    border-bottom: 3px solid rgb(30,30,30);
 }
 
 .desktopMenuImg{

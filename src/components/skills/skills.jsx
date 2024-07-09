@@ -32,7 +32,7 @@ const Skills = () => {
                 <img src={problemSolving} alt="" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>Problem Solving</h2>
-                    <p>Effeciently solving complex technical problems using critical thinking and analytical skills.</p>
+                    <p>Effeciently solving complex technical problems using critical thinking and analytical skills</p>
                 </div>
             </div>
         </div>
