@@ -45,6 +45,13 @@
 
 }
 
+.tagLine{
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-top: 3rem;
+    color: #2a4ad5;
+}
+
 .btn{
     border: none;
     background: white;
