@@ -14,10 +14,10 @@ const Contact = () => {
         <div className="experienceItem">
         <p className="experienceTitle">Professional Certifications</p>
               <ul className="certificationLinks">
-              <button className="btn"><li className="projectLink"><a href="https://www.coursera.org/account/accomplishments/verify/8PLKWMH8RHM8" rel="noreferrer">Google AI Essentials- Google</a></li></button>
-              <button className="btn"><li className="projectLink"><a href="https://www.coursera.org/account/accomplishments/verify/YH8JVJOBCAMM" rel="noreferrer">Programming with Python by Meta</a></li></button>
-              <button className="btn"><li className="projectLink"><a href="https://www.sololearn.com/en/certificates/CT-T7826LE4">Javascript by Sololearn</a></li></button>
-              <button className="btn"><li className="projectLink"><a href="https://www.coursera.org/account/accomplishments/verify/95MUU3YXRKEE">Introduction to Back-End Development by Meta</a></li></button>
+              <button className="btn"><li className="projectLink"><a href="https://www.coursera.org/account/accomplishments/verify/8PLKWMH8RHM8" rel="noreferrer" target='_blank'>Google AI Essentials- Google</a></li></button>
+              <button className="btn"><li className="projectLink"><a href="https://www.coursera.org/account/accomplishments/verify/YH8JVJOBCAMM" rel="noreferrer" target='_blank'>Programming with Python by Meta</a></li></button>
+              <button className="btn"><li className="projectLink"><a href="https://www.sololearn.com/en/certificates/CT-T7826LE4" target='_blank'>Javascript by Sololearn</a></li></button>
+              <button className="btn"><li className="projectLink"><a href="https://www.coursera.org/account/accomplishments/verify/95MUU3YXRKEE" target='_blank'>Introduction to Back-End Development by Meta</a></li></button>
               </ul>
           </div>
         </div>
