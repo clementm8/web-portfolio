@@ -14,11 +14,10 @@ const Contact = () => {
         <div className="experienceItem">
         <p className="experienceTitle">Professional Certifications</p>
               <ul className="certificationLinks">
-              <Link> <button className="btn"><li className="projectLink"></li>Google AI Essentials- Google</button></Link>
-              <Link> <button className="btn"><li className="projectLink"></li>IT Support Certificate- Google</button></Link>
-              <Link> <button className="btn"><li className="projectLink"></li>Programming with Python by Meta</button></Link>
-              <Link> <button className="btn"><li className="projectLink"></li>Javascript by Sololearn</button></Link>
-              <Link> <button className="btn"><li className="projectLink"></li>Introduction to Back-End Development by Meta</button></Link>
+              <button className="btn"><li className="projectLink"><a href="https://www.coursera.org/account/accomplishments/verify/8PLKWMH8RHM8" rel="noreferrer">Google AI Essentials- Google</a></li></button>
+              <button className="btn"><li className="projectLink"><a href="https://www.coursera.org/account/accomplishments/verify/YH8JVJOBCAMM" rel="noreferrer">Programming with Python by Meta</a></li></button>
+              <button className="btn"><li className="projectLink"><a href="https://www.sololearn.com/en/certificates/CT-T7826LE4">Javascript by Sololearn</a></li></button>
+              <button className="btn"><li className="projectLink"><a href="https://www.coursera.org/account/accomplishments/verify/95MUU3YXRKEE">Introduction to Back-End Development by Meta</a></li></button>
               </ul>
           </div>
         </div>

@@ -19,8 +19,8 @@ const Projects = () => {
                 <li> <p className="techStackItem">Vercel</p></li>
               </ul>
               <ul className="projectLinks">
-              <button className="btn"><li className="projectLink"><a href="https://github.com/clementm8/ai-weather-app" target='_blank'>Source Code</a></li></button>
-              <button className="btn"><li className="projectLink"><a href="https://weather-ai-app-three.vercel.app/" target='_blank'>Try it out</a></li></button>
+              <button className="btn"><li className="projectLink"><a rel="noreferrer" href="https://github.com/clementm8/ai-weather-app" target='_blank'>Source Code</a></li></button>
+              <button className="btn"><li className="projectLink"><a rel="noreferrer" href="https://weather-ai-app-three.vercel.app/" target='_blank'>Try it out</a></li></button>
               </ul>
           </div>
         </div>
@@ -36,8 +36,8 @@ const Projects = () => {
                 <li> <p className="techStackItem">Vercel</p></li>
               </ul>
               <ul className="projectLinks">
-              <button className="btn"><li className="projectLink"><a href="https://github.com/clementm8/vanilla-to-do" target='_blank'>Source Code</a></li></button>
-              <button className="btn"><li className="projectLink"><a href="https://vanilla-to-do-xi.vercel.app/" target='_blank'>Try it out</a></li></button>
+              <button className="btn"><li className="projectLink"><a rel="noreferrer" href="https://github.com/clementm8/vanilla-to-do" target='_blank'>Source Code</a></li></button>
+              <button className="btn"><li className="projectLink"><a rel="noreferrer" href="https://vanilla-to-do-xi.vercel.app/" target='_blank'>Try it out</a></li></button>
               </ul>
           </div>
         </div>
@@ -50,7 +50,7 @@ const Projects = () => {
                 <li> <p className="techStackItem">Apollo</p></li>
               </ul>
               <ul className="projectLinks">
-              <button className="btn"><li className="projectLink"><a href="https://github.com/clementm8/ai-weather-app" target='_blank'>Source Code</a></li></button>
+              <button className="btn"><li className="projectLink"><a rel="noreferrer" href="https://github.com/clementm8/graphql-api" target='_blank'>Source Code</a></li></button>
               <Link> <button className="btn"><li className="projectLink"></li>Query the API- coming soon</button></Link>
               </ul>
           </div>
