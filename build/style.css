@@ -18,6 +18,8 @@ body{
     height: 5rem;
     width: 5rem;
     object-fit: scale-down;
+    border: 1px solid #495cb2;
+    border-radius: 1.4rem;
 }
 
 .mobMenu{
