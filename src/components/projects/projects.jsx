@@ -11,7 +11,7 @@ const Projects = () => {
         <div className="projectItem">
           <p className="projectTitle">AI Weather App</p>
           <div className="projectItemDesc">
-            <p>In this project I integrated the OpenAI API into a JavaScript-based web app. I took a React-based weather app, added a heavy dose of AI, and created an interactive experience that knows what location you want weather information from, explains the weather data in simple language, and even suggests what to wear. This project taught me about API integrations, user-based authentication, storing user tokens in a ServiceWorker, task-based API configuration, and sending and receiving requests to the API.</p>
+            <p>In this project I took a React-based weather app, added a heavy dose of AI, and created an interactive experience that knows what location you want weather information from, explains the weather data in simple language, and even suggests what to wear. This project taught me about API integrations, user-based authentication, storing user tokens in a ServiceWorker, task-based API configuration, and sending and receiving requests to the API.</p>
               <ul className='projectStack'>
                 <li> <p className="techStackItem">Javascript</p></li>
                 <li> <p className="techStackItem">React</p></li>
