@@ -1,7 +1,7 @@
 #projects{
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
-    width: 100vw;
+    width: 65vw;
     max-width: 60rem;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,10 @@
     gap: 2rem;
     text-align: center;
     padding: 5rem 1rem;
-    background-color: rgb(30, 30, 30);
+    background-color: #333333;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-top: 4rem;
 }
 
 .projectsTitle{
@@ -38,12 +41,11 @@
 }
 
 .projectItem{
-    min-height: 30rem;
+    min-height: 27rem;
     width: 70vw;
     max-width: 55vw;
     max-height: 1rem;
     padding: 2.5rem;
-    overflow: auto;
     background-color: #495cb2;
     border-radius: 1rem;
 }
@@ -62,6 +64,8 @@
 
 .techStackItem{
     border: 1px solid rgb(30, 30, 30);
+    color: rgb(30, 30, 30);;
+    background-color: rgb(79 187 200);
     border-radius: 2rem;
     padding: 0.7rem;
 }
@@ -89,6 +93,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+    margin: auto;
     margin-top: 2rem;
 }
 

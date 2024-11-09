@@ -21,10 +21,10 @@ const Contact = () => {
               </ul>
           </div>
         </div>
-        <Link> <button className="btn">My Resume</button></Link>
+        <a rel="noopener noreferrer" href="/ClemsResume.pdf" target="_blank" class="btn"> My Resume </a>
         <div id="contact">
           <h1 className="contactPageTitle">Contact Me</h1>
-          <span className="contactDesc">Please fill out the form below to discuss any work oportunities</span>
+          <span className="contactDesc">Please fill out the form below to get in touch</span>
           <div className="contactForm">
             <input type="text" className="name" placeholder='Your Name' />
             <input type="text" className="email" placeholder='Your Email Address' />

@@ -8,7 +8,7 @@ const Skills = () => {
     return (
       <section id="skills">
         <span className="skillsTitle">What I do</span>
-        <span className="skillsDesc">Solving your technical problems with solutions that work. I have experience with multiple platforms that online businesses use such as Shopify, Google Tag Manager, Google Analytics, Stackadapt, and I am willing to learn more.</span>
+        <span className="skillsDesc">Solving your technical problems with solutions that work. I have experience with multiple platforms and services that online businesses use including but not limited to Shopify, Google Tag Manager, Google Analytics, Stackadapt, and I am willing to learn more.</span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={programming} alt="" className="skillBarImg" />
@@ -23,7 +23,7 @@ const Skills = () => {
                 <img src={integrate} alt="" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>Integration and Implementation</h2>
-                    <p>Unlock the potential of your platform with the right integrations. I'll do the heavy lifting and set things up so you dont have to.</p>
+                    <p> I'll do the heavy lifting and set things up so you dont have to.</p>
                 </div>
             </div>
         </div>

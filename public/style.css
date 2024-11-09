@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #333333;
+    background: rgb(30, 30, 30);
     color: white;
     overflow: hidden;
     overflow-y: scroll;
@@ -18,8 +18,6 @@ body{
     height: 5rem;
     width: 5rem;
     object-fit: scale-down;
-    border: 1px solid #899ee4;
-    border-radius: 1.4rem;
 }
 
 .mobMenu{
