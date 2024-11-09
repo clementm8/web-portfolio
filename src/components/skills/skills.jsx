@@ -32,7 +32,7 @@ const Skills = () => {
                 <img src={problemSolving} alt="" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>Problem Solving</h2>
-                    <p>Tech problems? Solved. Fast and easy</p>
+                    <p>Site problems? Solved. Fast and easy</p>
                 </div>
             </div>
         </div>
