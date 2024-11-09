@@ -8,13 +8,13 @@ const Skills = () => {
     return (
       <section id="skills">
         <span className="skillsTitle">What I do</span>
-        <span className="skillsDesc">I am a skilled Technical Solutions Engineer with experience in <br />solving complex technical problems. I have a strong understanding of web development and programming. I have experience with multiple platforms that online businesses use such as Shopify, Google Tag Manager, Google Analytics, Stackadapt, and I am willing to learn more.</span>
+        <span className="skillsDesc">Solving your technical problems with solutions that work. I have experience with multiple platforms that online businesses use such as Shopify, Google Tag Manager, Google Analytics, Stackadapt, and I am willing to learn more.</span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={programming} alt="" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>Programming</h2>
-                    <p>Building applications with React and writing scripts in Javascript</p>
+                    <p>Building web applications and scripts that make your life easier</p>
                 </div>
             </div>
         </div>
@@ -22,8 +22,8 @@ const Skills = () => {
             <div className="skillBar">
                 <img src={integrate} alt="" className="skillBarImg" />
                 <div className="skillBarText">
-                    <h2>Integrations</h2>
-                    <p>Experience working with REST and GraphQL APIs, using NodeJs to integrate systems</p>
+                    <h2>Integration and Implementation</h2>
+                    <p>Unlock the potential of your platform with the right integrations. I'll do the heavy lifting and set things up so you dont have to.</p>
                 </div>
             </div>
         </div>
@@ -32,10 +32,11 @@ const Skills = () => {
                 <img src={problemSolving} alt="" className="skillBarImg" />
                 <div className="skillBarText">
                     <h2>Problem Solving</h2>
-                    <p>Effeciently solving complex technical problems using critical thinking and analytical skills</p>
+                    <p>Tech problems? Solved. Fast and easy</p>
                 </div>
             </div>
         </div>
+        
       </section>
     )
 }
