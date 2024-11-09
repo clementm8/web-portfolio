@@ -9,9 +9,9 @@ const Intro = () => {
       <section id="intro">
         <div className="introContent">
         <span className="hello">Hello,</span>
-        <span className="introText"> I&apos;m <span className="introName">Clem </span><br /> Technical Solutions Engineer</span>
-        <p className='introPara'>I&apos;m a skilled Technical Solutions Engineer with experience in <br />solving technical problems  and a passion for building software.</p>
-        <Link activeClass='active' to='footer' spy={true} smooth={true} offset={-250} duration={500}><button className="btn"><img src={btnImg} alt="suitcase svg" className='btnImg'/>Hire Me</button></Link>
+        <span className="introText"> I&apos;m <span className="introName">Clem </span><br /> Technical Web Specialist</span>
+        <p className='introPara'>Here to solve your technical problems so you can focus on what matters most.</p>
+        <Link activeClass='active' to='footer' spy={true} smooth={true} offset={-250} duration={500}><button className="btn"><img src={btnImg} alt="suitcase svg" className='btnImg' style="width: auto; height: auto;"/>Hire Me</button></Link>
         <div className='tagLine'><i>Success through code</i></div>
         </div>
         <img src={bg} alt="headshot" className="bg" />
