@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <h2 className="projectsTitle">My Projects</h2>
-      <span className="projectDesc">Here are some projects that I have built for courses while in college, and out of personal interest. I am excited to bring my skills and experience to help businesses achieve their goals.</span>
+      <span className="projectDesc">Here are my favorite projects that i've worked on so far.</span>
       <div className="projectDivs">
         <div className="projectItem">
           <p className="projectTitle">AI Weather App</p>
@@ -36,7 +36,6 @@ const Projects = () => {
             <ul className='projectStack'>
               <li> <p className="techStackItem">Javascript</p></li>
               <li> <p className="techStackItem">React</p></li>
-              <li> <p className="techStackItem">Open AI API</p></li>
               <li> <p className="techStackItem">Firebase</p></li>
               <li> <p className="techStackItem">Vercel</p></li>
             </ul>

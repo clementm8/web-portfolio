@@ -7,7 +7,7 @@ import problemSolving from '../../assets/problemSolving.svg'
 const Skills = () => {
     return (
       <section id="skills">
-        <span className="skillsTitle">What I do</span>
+        <span className="sectionTitle">What I do</span>
         <span className="skillsDesc">Solving your technical problems with solutions that work. I have experience with multiple platforms and services that online businesses use including but not limited to Shopify, Google Tag Manager, Google Analytics, Stackadapt, and I am willing to learn more.</span>
         <div className="skillBars">
             <div className="skillBar">

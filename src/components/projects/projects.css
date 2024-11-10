@@ -9,8 +9,8 @@
     justify-content: baseline;
     gap: 2rem;
     text-align: center;
-    padding: 5rem 1rem;
-    background-color: #333333;
+    padding: 3rem 1rem;
+    background-color: rgb(38 51 76);
     border: 1px solid black;
     border-radius: 1rem;
     margin-top: 4rem;
@@ -18,7 +18,6 @@
 
 .projectsTitle{
     font-size: 3rem;
-    margin: 1rem 0;
 }
 
 .projectsDesc{
@@ -37,14 +36,12 @@
     gap: 3rem;
     width: 100vw;
     max-width: 100vw;
-    padding: 3rem 0;
 }
 
 .projectItem{
     min-height: 27rem;
     width: 70vw;
     max-width: 55vw;
-    max-height: 1rem;
     padding: 2.5rem;
     background-color: #495cb2;
     border-radius: 1rem;
@@ -58,8 +55,9 @@
     flex-wrap: wrap;
 }
 
-.projectLinks{
-    width: 100vw;
+.projectLink{
+    max-width: 60%;
+
 }
 
 .techStackItem{
@@ -95,10 +93,28 @@
     gap: 2rem;
     margin: auto;
     margin-top: 2rem;
+    flex-wrap: wrap;
+    min-width: 100%;
 }
 
-@media screen and (max-width: 585px){
-    .projectItem{
-        height:  48vw;
+@media screen and (max-width: 650px){
+    .projectStack{
+        display: none;
     }
+
+    .projectItem{
+        min-width: 75%;
+    }
+    
+    #projects{
+        min-width: 92vw;
+        }
+}
+
+@media screen and (max-width: 480px){
+    /* .skillBarText>p, .skillBarText>h2{
+        font-size: 1.25rem;
+    } */
+
+    
 }
