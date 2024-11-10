@@ -73,3 +73,17 @@
     width: 3rem;
     margin: 0 0.75rem;
 }
+
+@media screen and (max-width: 650px){
+    .experienceDivs{
+        min-width: 75%;
+    }
+
+    .certifications {
+        max-width: 75%;
+    }
+    
+    #experience{
+        min-width: 92vw;
+        }
+}
