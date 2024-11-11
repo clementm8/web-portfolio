@@ -1,7 +1,7 @@
 #intro{
     height: calc(95vh - 4rem);
     width: 100vw;
-    max-width: 75rem;
+    max-width: 94rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -65,7 +65,15 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:840px){
+/* Mobile (Small) - 360px and up */
+@media (min-width: 360px) {
+    /* Styles for small mobile screens */
+    body {
+      font-size: 14px;
+    }
+  }
+
+@media screen and (max-width:768px){
     .bg{
         right: -15vw;
     }

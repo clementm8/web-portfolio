@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: baseline;
     gap: 2rem;
     text-align: center;
     padding: 3rem 1rem;
@@ -109,4 +108,29 @@
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
+}
+
+@media (min-width: 360px) {
+.contactForm > .submitBtn {
+    padding: 0.75rem 1.5rem;
+    margin: 1rem;
+}
+
+#contact{
+    min-width: 92vw;
+}
+
+.contactForm{
+    min-width: 100%
+}
+
+}
+
+@media (min-width: 768px) {
+    #contact{
+        min-width: 65vw;
+    }
+    .contactForm{
+        min-width: 80%
+    }
 }
