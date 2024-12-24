@@ -2,7 +2,7 @@
     margin: 0 auto;
     min-height: fit-content;
     height: 40vw;
-    max-width: 62vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,6 @@
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 60rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,7 +127,7 @@
 
 @media (min-width: 768px) {
     #contact{
-        min-width: 65vw;
+        min-width: 60vw;
     }
     .contactForm{
         min-width: 80%

@@ -1,8 +1,7 @@
-#projects{
+#projects {
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
-    width: 65vw;
-    max-width: 60rem;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,17 +15,17 @@
     margin-top: 4rem;
 }
 
-.projectsTitle{
+.projectsTitle {
     font-size: 3rem;
 }
 
-.projectsDesc{
+.projectsDesc {
     font-weight: 300;
     font-size: 1rem;
     max-width: 55vw;
 }
 
-.projectDivs{
+.projectDivs {
     min-width: 80vw;
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +37,7 @@
     max-width: 100vw;
 }
 
-.projectItem{
+.projectItem {
     min-height: 27rem;
     width: 70vw;
     max-width: 55vw;
@@ -47,7 +46,7 @@
     border-radius: 1rem;
 }
 
-.projectItemDesc{
+.projectItemDesc {
     max-width: 80vw;
     max-height: fit-content;
     text-align: left;
@@ -55,38 +54,40 @@
     flex-wrap: wrap;
 }
 
-.projectLink{
+.projectLink {
     max-width: 60%;
 
 }
 
-.techStackItem{
+.techStackItem {
     border: 1px solid rgb(30, 30, 30);
-    color: rgb(30, 30, 30);;
+    color: rgb(30, 30, 30);
+    ;
     background-color: rgb(79 187 200);
     border-radius: 2rem;
     padding: 0.7rem;
 }
 
-.projectsBtn{
-        border: none;
-        background: white;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0.7rem 2rem;
-        border-radius: 2rem;
-        margin: 1rem 0;
-        font-size: 1.2rem;
+.projectsBtn {
+    border: none;
+    background: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    font-size: 1.2rem;
 }
 
-.projectTitle{
+.projectTitle {
     font-size: 2rem;
     margin: 1rem 0;
 }
 
-.projectStack, .projectLinks{
+.projectStack,
+.projectLinks {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -97,24 +98,39 @@
     min-width: 100%;
 }
 
-@media screen and (max-width: 650px){
-    .projectStack{
+@media screen and (max-width: 650px) {
+    .projectStack {
         display: none;
     }
 
-    .projectItem{
+    .projectItem {
         min-width: 75%;
     }
-    
-    #projects{
+
+    #projects {
         min-width: 92vw;
-        }
+    }
+
+    .projectsDivs {
+        min-width: 75%;
+    }
 }
 
-@media screen and (max-width: 480px){
-    /* .skillBarText>p, .skillBarText>h2{
-        font-size: 1.25rem;
-    } */
 
-    
+@media (min-width: 360px) {
+    #projects {
+        min-width: 92vw;
+    }
+}
+
+@media screen and (max-width: 650px) {}
+
+@media (min-width: 768px) {
+    .projectsDivs {
+        width: 90vw;
+    }
+
+    #projects {
+        min-width: 60vw;
+    }
 }

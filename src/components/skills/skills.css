@@ -1,7 +1,7 @@
 #skills{
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
-    max-width: 65vw;
+    max-width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,31 +51,46 @@
     font-weight: 200;
 }
 
-@media screen and (max-width: 720px){
-    .skillBarText>p{
-        font-size: 1rem;
-    }
-
-    .skillBars{
-        max-width: 100%;
-    }
-}
-
 @media screen and (max-width: 650px){
     .skillBarText>p, .skillBarText>h2{
         font-size: 1.25rem;
     }
 
     #skills{
-    min-width: 92vw;
+        max-width: 75vw;
+        min-width: 92vw
     }
 
     .skillBarImg{
         height: 2.25rem;
         width: 2.25rem;
     }
+}
 
-    .skillsDesc{
-        max-width: 75vw;
+@media (min-width: 360px) {
+    #skills {
+        min-width: 92vw;
+        min-height: fit-content;
+    }
+
+    .experienceDivs {
+        max-width: 100%;
+    }
+    .certificationLinks {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    #skills {
+        min-width: 60vw;
+    }
+
+    .skillBarText>p{
+        font-size: 1rem;
+    }
+
+    .skillBars{
+        max-width: 100%;
     }
 }

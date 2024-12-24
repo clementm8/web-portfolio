@@ -16,8 +16,9 @@ const Experience = () => {
                         <li ><a className="btn" href="https://www.coursera.org/account/accomplishments/verify/95MUU3YXRKEE" rel="noreferrer" target='_blank'>Introduction to Back-End Development by Meta</a></li>
                     </ul>
             </div>
+            <a rel="noopener noreferrer" href="/ClemsResume.pdf" target="_blank" class="btn"> View My Resume </a>
             </div>
-            <a rel="noopener noreferrer" href="/ClemsResume.pdf" target="_blank" class="btn"> My Resume </a>
+            
         </section>
     )
 }

@@ -1,20 +1,35 @@
-#experience{
+/* #experience{
     margin: 0 auto;
     min-height: calc(92vh - 4rem);
     height: 40vw;
-    max-width: 65vw;
+    width: 60vw;
     margin: 4rem auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: baseline;
+    
     gap: 2rem;
     text-align: center;
     padding: 5rem 1rem;
     background-color: rgb(38 51 76);
     border: 1px solid black;
     border-radius: 1rem;
+} */
+
+#experience{
+    margin: 0 auto;
+    min-height: fit-content;
+    height: 40vw;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: rgb(38 51 76);
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 4rem auto;
 }
+
 
 .experienceDivs{
     min-width: 80vw;
@@ -24,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
-    width: 100vw;
+    margin-bottom: 3rem;
 }
 
 .sectionTitle {
@@ -74,16 +89,51 @@
     margin: 0 0.75rem;
 }
 
+@media (min-width: 360px) {
+    #experience {
+        min-width: 92vw;
+        min-height: fit-content;
+    }
+
+    .certifications{
+        width: 100%;
+    }
+
+    .experienceDivs {
+        max-width: 100%;
+    }
+    .certificationLinks {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 650px){
     .experienceDivs{
         min-width: 75%;
     }
 
     .certifications {
-        max-width: 75%;
+        max-height: 75%;
     }
     
     #experience{
         min-width: 92vw;
         }
+
+    .experienceDivs {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .experienceDivs{
+        max-width: 5rem;
+    }
+    #experience {
+        min-width: 60vw;
+    }
+    .certifications {
+        width: 70%;
+    }
+    
 }
